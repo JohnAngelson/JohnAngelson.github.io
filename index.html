@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Angelson</title>
+    <!--I got this link from cdnjs.com, 
+    it makes the app work in the same way on all browsers [chrome,safari,....]-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <!--css link-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--INTRODUCTION-->
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>John Angelson</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="images/PortofolioFace1.jpg"
+        alt="profile pic"
+        class="intro__img"
+      />
+    </section>
+
+    <!--My Services-->
+
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            I design and develop websites to make my customers have a broader
+            impact through getting their self on the ocean of opportunites
+            called the internet.
+          </p>
+        </div>
+        <!-- / service -->
+        <div class="service">
+          <h3>E-Commerce</h3>
+          <p>
+            I design and develop E-commerce websites for getting my customers
+            more power over their business and gaining more customers and value
+            out of their business.
+          </p>
+        </div>
+        <!-- / service -->
+        <div class="service">
+          <h3>Wordpress</h3>
+          <p>
+            I work also by making websites through Wordpress if someone wants a
+            faster and more economic solution.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services-->
+      <a href="#work" class="btn">My work</a>
+    </section>
+
+    <!--About me-->
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtilte section__subtitle--about">
+        Designer & developer based out of Athens, Greece
+      </p>
+      <div class="about-me__body">
+        <p>
+          I am a web developer passionate about making creative and
+          money-oriented website solutions for my customers, so they can enhance
+          their buisness by entering the cosmos of the internet and grasp every
+          aspect of it.
+        </p>
+        <p>
+          I live in Athens, Greece and work mainly as a freelancer, making
+          websites for businesses and people in general. I'm new in the world of
+          programming but my moto is people over code and everything will go as
+          planned.
+        </p>
+      </div>
+      <img
+        src="/images/PortofolioFace1.jpg"
+        alt="about pic"
+        class="about-me__img"
+      />
+    </section>
+
+    <!--My Work-->
+
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Work</h2>
+      <p class="section__subtilte">A selection of my range of work</p>
+      <div class="portofolio">
+        <!--Portofolio Item 01-->
+        <a href="#" class="portofolio__item portofolio__item1">
+          <img src="/images/EFcard.png" alt="" class="portofolio__img" />
+        </a>
+        <!--Portofolio Item 02-->
+        <a href="#" class="portofolio__item">
+          <img
+            src="/images/bookstorethumbnail.jpg"
+            alt=""
+            class="portofolio__img"
+          />
+        </a>
+        <!--Portofolio Item 03-->
+        <a href="#" class="portofolio__item">
+          <img src="/images/athens1.jpg" alt="" class="portofolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer">
+      <a href="mailto:AngelsonDev@gmail.com" class="footer__link"
+        >AngelsonDev@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
